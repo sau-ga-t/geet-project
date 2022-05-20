@@ -7,7 +7,7 @@ const router = express.Router();
 router.use(bodyParser.json({ extended: true }));
 
 router.get('/',verifyToken, (req, res)=>{
-    res.send({status:true, message:"Welcome "+req.user.username});
+    res.send({status:true, message:"Artists: 200"});
 });
 
 

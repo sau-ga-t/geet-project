@@ -12,7 +12,6 @@ const invalid_message = {
 const verifyToken = async (req, res, next) => {
   const token =
    req.headers["x-access-token"];
-
   if (!token) {
     return res.status(403).send(invalid_message);
   }

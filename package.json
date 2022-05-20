@@ -4,6 +4,7 @@
   "description": "Api backend for geet app. My personal music streaming option.",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon app.js"
   },
@@ -19,5 +20,8 @@
     "mongodb": "^4.6.0",
     "passport": "^0.5.2",
     "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
   }
 }
